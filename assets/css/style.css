@@ -98,7 +98,8 @@ h6 {
 #header {
   position: relative;
   width: 100%;
-  padding: 100px 0;
+  padding: 30px 0;
+  min-height: 100vh;
   /* countdown */
 }
 
@@ -117,7 +118,7 @@ h6 {
 }
 
 #header .countdown {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 #header .countdown div {
@@ -251,6 +252,19 @@ h6 {
 
 #header .social-links {
   margin-top: 10px;
+}
+
+#apply-now {
+  text-align: center;
+  padding: 3px 5px;
+  border: 2px solid #004D00;
+  background-color: #004D00;
+  color: #fff;
+  border-radius: 10px;
+}
+#apply-now:hover {
+  background-color: #fff;
+  color: #004D00;
 }
 
 #header .social-links a {
@@ -518,7 +532,13 @@ section {
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
-  position: relative;
+  position: fixed;
+  bottom: 0;
+}
+
+.social-links {
+  position: fixed;
+  bottom: 0;
 }
 
 #footer .copyright {
